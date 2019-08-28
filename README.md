@@ -1,6 +1,7 @@
-#BITACORA AMPLIFICADOR CLASE D
+***BITACORA AMPLIFICADOR CLASE D***
 
 **Justificación del proyecto**
+
 El siguiente proyecto fue creado para la clase de señales y sistemas de la [Universidad ICESI](https://www.icesi.edu.co/)
 ---
 **Fase Uno del proyecto: Modulador**
