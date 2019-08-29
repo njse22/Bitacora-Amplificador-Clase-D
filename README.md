@@ -1,17 +1,17 @@
-### BITACORA AMPLIFICADOR CLASE D
+# BITACORA AMPLIFICADOR CLASE D
 
-# Justificación del proyecto
+## Justificación del proyecto
 
 El siguiente proyecto fue creado para la clase de señales y sistemas de la [Universidad ICESI](https://www.icesi.edu.co/)
 
 __________________________________________________________________________________________________________________________
 
-# Fase Uno del proyecto: Modulador
+## Fase Uno del proyecto: Modulador
 
 Para la primera face del proyecto se requirió implementar un modulador PWM, para esto se hizo una investigación (todas las fuentes se encuentran 
 en las referencias del proyecto al final de la bitacora) sobre como funciona la modulación para un amplificador clase D. 
 
- # *Amplificadores operacionales* 
+ #### *Amplificadores operacionales* 
 Se encontro que el funcionamiento de los moduladores PWM se pueden implementar con un modulador operacional el cual 
 dadas dos señales de entrada 
 genera con una multiplicación una señal de salida, para nuestra suerte ya contabamos con un amplificador operacional 
