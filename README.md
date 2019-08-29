@@ -16,13 +16,13 @@ Se encontro que el funcionamiento de los moduladores PWM se pueden implementar c
 dadas dos señales de entrada 
 genera con una multiplicación una señal de salida, para nuestra suerte ya contabamos con un amplificador operacional 
 (de algun otro proyecto el 
-cual no tengo presente), este era un JRC 4585; conectando un Analog Discovery el cual generaba dos señales, una señal 
+cual no tengo presente), este era un [JRC 4558](documentos/jrc4558); conectando un Analog Discovery el cual generaba dos señales, una señal 
 triangular con una amplitud
 de 4V con una frecuencia de 10Hz y una señal senoidal con una amplitud de 1V y una frecuencia de 1Hz (señal modulada y 
 moduladora respectivamente)
 conectadas a las entradas del amplificador operacional producian la señal mostrada en la Figura 1.
 
-![Figura 1.Modulación con el JRC 4585](imagenes/moduladorJRC.png)
+![Figura 1.Modulación con el JRC 4558](imagenes/moduladorJRC.png)
 
 como se puede ver en la figura esta señal no presenta una modulación correcta esto devido a una posible caracteristica 
 interna de JRC 4585, después de  
