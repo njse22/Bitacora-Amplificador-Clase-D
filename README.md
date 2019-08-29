@@ -22,9 +22,7 @@ de 4V con una frecuencia de 10Hz y una señal senoidal con una amplitud de 1V y 
 moduladora respectivamente)
 conectadas a las entradas del amplificador operacional producian la señal mostrada en la Figura 1.
 
-+---------------------+
-| insertar Figura 1.  |
-+---------------------+
+![Figura 1.Modulación con el JRC 4585](imagenes/moduladorJRC.png)
 
 como se puede ver en la figura esta señal no presenta una modulación correcta esto devido a una posible caracteristica 
 interna de JRC 4585, después de  
