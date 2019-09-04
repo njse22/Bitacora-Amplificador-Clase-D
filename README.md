@@ -29,9 +29,8 @@ interna de JRC 4585, después de esto desidimos probar con un amplificador opera
 [NE555P](documentos/NE555.pdf) y el [LF353](documentos/LF353.pdf) el primero fue descartado por el hecho de que produce de forma interna
 las señales portadora y moduladora, luego utilizamos el LF353 el cual dio como resultado la modulación de la Figura 2. 
 
-+-------------------+
-| insertar figura 2.|
-+-------------------+
+![Figura 2. Modulación con el LF 353](imagenes/modulacion.png)
+
 
 
 
