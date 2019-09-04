@@ -6,7 +6,7 @@ El siguiente proyecto fue creado para la clase de señales y sistemas de la [Uni
 
 __________________________________________________________________________________________________________________________
 
-## Fase Uno del proyecto: Modulador
+## Face Uno del proyecto: Modulador
 
 Para la primera face del proyecto se requirió implementar un modulador PWM, para esto se hizo una investigación (todas las fuentes se encuentran 
 en las referencias del proyecto al final de la bitacora) sobre como funciona la modulación para un amplificador clase D. 
