@@ -1,5 +1,10 @@
 # BITÁCORA AMPLIFICADOR CLASE D
 
+## Integrantes
+Mateo Gallego Ramirez
+Nicolás Javier Salazar Echeverry 
+
+--------------------------------------------------------------------------
 ## Justificación del proyecto
 
 El siguiente proyecto fue creado para la clase de señales y sistemas de la [Universidad ICESI](https://www.icesi.edu.co/)
