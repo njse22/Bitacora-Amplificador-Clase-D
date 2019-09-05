@@ -50,25 +50,6 @@ párametro puede ser frecuencia, amplitud, fase, los elementos que hacen parte d
 \end{itemize}{}
 \end{frame}{}
 
-%%figura modulación 
-\begin{frame}{}
-\begin{figure}[h]
-\setlength{\unitlength}{0.14in}
-\centering
-\begin{picture}(32,15)
-\put(12,6){\framebox(6,3){$Modulator$}}
-\put(8,7.5){\vector(1,0){4}}
-\put(8,7.6){ $ input $ }
-\put(18,7.5){\vector(1,0){4}}
-\put(19,7.6){ $ output $ }
-\put(5,7.5){\includegraphics[scale=0.090]{figuras/sin.png}}
-\end{picture}
-\caption{proceso de modulación} % title of the Figure
-\label{fig:1}
- % label to refer figure in text
-\end{figure}
-\end{frame}
-
 \subsection{¿Qué es el muestreo?}
 \begin{frame}{¿Qué es el muestreo?}
 \begin{center}
@@ -85,10 +66,10 @@ párametro puede ser frecuencia, amplitud, fase, los elementos que hacen parte d
 
 \subsection{Modulación PWM}
 \begin{frame}{Modulación PWM (modulación por duración de pulso)}
-    Modulación por duración de pulso 
+   
     
     \begin{center}
-        \includegraphics[scale=0.4]{figuras/pulso.png}
+        \includegraphics[scale=0.8]{figuras/imagen2.jpeg}
     \end{center}{}
     
 \end{frame}{}
@@ -98,19 +79,48 @@ párametro puede ser frecuencia, amplitud, fase, los elementos que hacen parte d
 \section{Implementación del Modulador}
 
 \subsection{Materiales}
+
 \begin{frame}{Materiales}
+    \begin{center}
+        \begin{itemize}
+            \item Amplificador operacional LF353
+            \item Protoboard 
+            \item Cables macho-macho
+            \item Arduino uno (fuente alimentación)
+            \item Analog Discovery
+        \end{itemize}{}
+    \end{center}{}    
+        
 \end{frame}{}
 
 \subsection{Montaje}
 \begin{frame}{Montaje}
+
+\begin{center}
+    \includegraphics[scale=0.4]{figuras/fritzing1.png}
+\end{center}{}
+
 \end{frame}{}
 
 \subsection{Resultados}
 \begin{frame}{Resulatdos}
+    \begin{center}
+    \includegraphics[scale=0.3]{figuras/modulacion1.png}
+\end{center}{}
 \end{frame}{}
 
 \section{Conclusiones}
 \begin{frame}{Conclusiones}
+\begin{itemize}
+    \item ruido
+    \item relaciones: amplitud-ruido, frecuencia-ruido
+    \item PWM = analogica 
+    
+\end{itemize}{}
+
 \end{frame}{}
+
+\section{Preguntas}
+
 
 \end{document}
