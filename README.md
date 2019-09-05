@@ -1,4 +1,4 @@
-# BITACORA AMPLIFICADOR CLASE D
+# BITÁCORA AMPLIFICADOR CLASE D
 
 ## Justificación del proyecto
 
@@ -6,34 +6,27 @@ El siguiente proyecto fue creado para la clase de señales y sistemas de la [Uni
 
 __________________________________________________________________________________________________________________________
 
-## Face Uno del proyecto: Modulador
+## Fase Uno del proyecto: Modulador
 
-Para la primera face del proyecto se requirió implementar un modulador PWM, para esto se hizo una investigación (todas las fuentes se encuentran 
-en las referencias del proyecto al final de la bitacora) sobre como funciona la modulación para un amplificador clase D. 
+Para la primera fase del proyecto se requirió implementar un modulador PWM, para esto se hizo una investigación (todas las fuentes se encuentran 
+en las referencias del proyecto al final de la bitácora) sobre como funciona la modulación para un amplificador clase D. 
 
  #### *Amplificadores operacionales* 
-Se encontro que el funcionamiento de los moduladores PWM se pueden implementar con un modulador operacional el cual 
+Se encontró que el funcionamiento de los moduladores PWM se pueden implementar con un modulador operacional el cual 
 dadas dos señales de entrada 
-genera con una multiplicación una señal de salida, para nuestra suerte ya contabamos con un amplificador operacional 
-(de algun otro proyecto el 
+genera con una multiplicación una señal de salida, para nuestra suerte ya contábamos con un amplificador operacional 
+(de algún otro proyecto el 
 cual no tengo presente), este era un [JRC 4558](documentos/jrc4558.pdf); conectando un Analog Discovery el cual generaba dos señales, una señal 
 triangular con una amplitud
 de 4V con una frecuencia de 10Hz y una señal senoidal con una amplitud de 1V y una frecuencia de 1Hz (señal modulada y 
 moduladora respectivamente)
-conectadas a las entradas del amplificador operacional producian la señal mostrada en la Figura 1.
+conectadas a las entradas del amplificador operacional producían la señal mostrada en la Figura 1.
 
 ![Figura 1.Modulación con el JRC 4558](imagenes/moduladorJRC.png)
 
-como se puede ver en la figura esta señal no presenta una modulación correcta esto devido a una posible caracteristica 
-interna de JRC 4585, después de esto desidimos probar con un amplificador operacional diferente se tuvo encenta el 
+como se puede ver en la figura esta señal no presenta una modulación correcta esto debido a una posible característica 
+interna de JRC 4585, después de esto decidimos probar con un amplificador operacional diferente se tuvo encenta el 
 [NE555P](documentos/NE555.pdf) y el [LF353](documentos/LF353.pdf) el primero fue descartado por el hecho de que produce de forma interna
 las señales portadora y moduladora, luego utilizamos el LF353 el cual dio como resultado la modulación de la Figura 2. 
 
-![Figura 2. Modulación con el LF 353](imagenes/modulacion.png)
-
-
-
-
-
-
- 
+![Figura 2. Modulación con el LF353](imagenes/modulacion.png)
