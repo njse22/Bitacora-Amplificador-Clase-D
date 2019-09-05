@@ -35,3 +35,8 @@ interna de JRC 4585, después de esto decidimos probar con un amplificador opera
 las señales portadora y moduladora, luego utilizamos el LF353 el cual dio como resultado la modulación de la Figura 2. 
 
 ![Figura 2. Modulación con el LF353](imagenes/modulacion.png)
+
+# video 
+
+![video](imagenes/video.mp4)
+
