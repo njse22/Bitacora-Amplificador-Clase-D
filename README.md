@@ -25,7 +25,7 @@ cual no tengo presente), este era un [JRC 4558](documentos/jrc4558.pdf); conecta
 triangular con una amplitud
 de 4V con una frecuencia de 10Hz y una señal senoidal con una amplitud de 1V y una frecuencia de 1Hz (señal modulada y 
 moduladora respectivamente)
-conectadas a las entradas del amplificador operacional producían la señal mostrada en la Figura 1.
+conectadas a las entradas del amplificador operacional (alimentado por una bateria de 9V) producían la señal mostrada en la Figura 1.
 
 ![Figura 1.Modulación con el JRC 4558](imagenes/moduladorJRC.png)
 
@@ -35,7 +35,11 @@ interna de JRC 4585, después de esto decidimos probar con un amplificador opera
 las señales portadora y moduladora, luego utilizamos el LF353 el cual dio como resultado la modulación de la Figura 2 teniendo una triangular con 
 una amplitud de 2V y una frecuencia de 10Hz; tambien una señal seno con una amplitud de 500mV y una frecuencia de 1Hz. tambien se debe tener en
 cuenta que tuvimos que incrementar el offset a 2V ya que al utilizar una targeta arduino Uno como fuente de coltaje, esta no genera voltaje negativo, 
-lo que nos obligaba a subir el valor del offset para no tener perdida de informacion debido a voltajes negativos . 
+lo que nos obligaba a subir el valor del offset para no tener perdida de informacion debido a voltajes negativos. 
+
+Nota: la bateria de nueve voltios fue reemplazada por una tarjeta arduino Uno que genera 5V ya que el voltaje de la bateria era muy inestable generando
+así una cantidad de ruido considerable, esto se soluciona con la arduino que genera un voltaje mucha mas estable. en una proxima entrega se contempla la
+utilizacion de una fuente de poder mas potente y estable.
 
 ![Figura 2. Modulación con el LF353](imagenes/modulacion.png)
 
