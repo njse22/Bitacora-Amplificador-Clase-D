@@ -1,7 +1,9 @@
 # BITÁCORA AMPLIFICADOR CLASE D
 
 ## Integrantes
+
 Mateo Gallego Ramirez
+
 Nicolás Javier Salazar Echeverry 
 
 --------------------------------------------------------------------------
@@ -42,8 +44,4 @@ así una cantidad de ruido considerable, esto se soluciona con la arduino que ge
 utilizacion de una fuente de poder mas potente y estable.
 
 ![Figura 2. Modulación con el LF353](imagenes/modulacion.png)
-
-# video 
-
-![video](imagenes/video.mp4)
 
