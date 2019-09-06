@@ -27,7 +27,10 @@ conectadas a las entradas del amplificador operacional producian la señal mostr
 como se puede ver en la figura esta señal no presenta una modulación correcta esto devido a una posible caracteristica 
 interna de JRC 4585, después de esto desidimos probar con un amplificador operacional diferente se tuvo encenta el 
 [NE555P](documentos/NE555.pdf) y el [LF353](documentos/LF353.pdf) el primero fue descartado por el hecho de que produce de forma interna
-las señales portadora y moduladora, luego utilizamos el LF353 el cual dio como resultado la modulación de la Figura 2. 
+las señales portadora y moduladora, luego utilizamos el LF353 el cual dio como resultado la modulación de la Figura 2 teniendo una triangular con 
+una amplitud de 2V y una frecuencia de 10Hz; tambien una señal seno con una amplitud de 500mV y una frecuencia de 1Hz. tambien se debe tener en
+cuenta que tuvimos que incrementar el offset a 2V ya que al utilizar una targeta arduino Uno como fuente de coltaje, esta no genera voltaje negativo, 
+lo que nos obligaba a subir el valor del offset para no tener perdida de informacion debido a voltajes negativos . 
 
 ![Figura 2. Modulación con el LF 353](imagenes/modulacion.png)
 
