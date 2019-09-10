@@ -45,3 +45,15 @@ utilizacion de una fuente de poder mas potente y estable.
 
 ![Figura 2. Modulación con el LF353](imagenes/modulacion.png)
 
+
+## Fase Dos del proyecto: Amplificación 
+
+Para la fase dos del proyecto se decidió que es necesario buscar la forma de generar una señal triangular con un circuito
+externo, para esto se miraron diferentes opciones entre ellas lgenerarla con una arduino uno en base a [este trabajo](documentos)
+
+
+
+
+
+
+
