@@ -49,7 +49,8 @@ utilizacion de una fuente de poder mas potente y estable.
 ## Fase Dos del proyecto: Amplificación 
 
 Para la fase dos del proyecto se decidió que es necesario buscar la forma de generar una señal triangular con un circuito
-externo, para esto se miraron diferentes opciones entre ellas lgenerarla con una arduino uno en base a [este trabajo](documentos)
+externo, para esto se miraron diferentes opciones entre ellas lgenerarla con una arduino uno en base a [este trabajo](documentos/generador_de_señales_arduino.pdf); también se estudio la posibilidad de generar esta señal portadora sin una arduino (utilizando solamnete
+el circuito integrado NE555P) para esta opción se estudio el siguente [documento](documentos/Generador_Triangular_con_555.pdf),
 
 
 
