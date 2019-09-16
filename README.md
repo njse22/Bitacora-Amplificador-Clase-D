@@ -45,7 +45,7 @@ utilizacion de una fuente de poder mas potente y estable.
 
 ![Figura 2. Modulación con el LF353](imagenes/modulacion.png)
 
-[presentación](Bitacora-Amplificador-Clase-D/presentaciones/modulador/se_ales_modulador.pdf), de la primera fase del proyecto
+[presentación](presentaciones/modulador/se_ales_modulador.pdf), de la primera fase del proyecto
 
 ## Fase Dos del proyecto: Amplificación 
 
