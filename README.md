@@ -64,9 +64,9 @@ De la salida del modulador (la señal PWM) sacar dos señales una conectada
 a compuerta inversora y la otra sin invertir y conectar estas a los 
 transistoes de campo tipo N lo cual produjo el resultado de la Figura 5
 
-[Figura 3.](imagenes/circuito1.png)
+![Figura 3.](imagenes/circuito1.png)
 
-[Figura 4.](imagenes/amplificador1.mp4)
+![Figura 4.](imagenes/amplificador1.mp4)
 
-[Figura 5.](imagenes/amplificador2.mp4)
+![Figura 5.](imagenes/amplificador2.mp4)
 
