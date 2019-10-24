@@ -53,10 +53,20 @@ Para la fase dos del proyecto se decidió que es necesario buscar la forma de ge
 externo, para esto se miraron diferentes opciones entre ellas lgenerarla con una arduino uno en base a [este trabajo]
 (documentos/generador_de_señales_arduino.pdf); también se estudio la posibilidad de generar esta señal portadora sin una arduino
 (utilizando solamnete el circuito integrado NE555P) para esta opción se estudio el siguente [documento](documentos/Generador_Triangular_con_555.pdf),
+en se estudio la posibilidad de utilizar un bang bang cotroller como se puede
+encontrar en este [documento](documentos/) del cual se decidió implemetar
+el circuito de la Figura 3. el cual produjo como resultado la simulación de 
+la Figura 4. en este punto del proyecto y al notar que las implementaciones 
+estudiadas no estaban dando los resultados que nosotros esperavamos se
+decidio hacer lo siguiente: 
+ 
+De la salida del modulador (la señal PWM) sacar dos señales una conectada 
+a compuerta inversora y la otra sin invertir y conectar estas a los 
+transistoes de campo tipo N lo cual produjo el resultado de la Figura 5
 
+[Figura 3.](imagenes/circuito1.png)
 
+[Figura 4.](imagenes/amplificador1.mp4)
 
-
-
-
+[Figura 5.](imagenes/amplificador2.mp4)
 
